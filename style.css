@@ -130,7 +130,7 @@ body{
 }
 
 .cardEsp{
-  background-image: url(images/pesca.jpg);
+  background-image: url(./images/pesca.jpg);
   position: relative;
   margin: 20px;
   background-size: 100%;
