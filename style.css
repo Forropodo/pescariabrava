@@ -422,6 +422,13 @@ body{
     position: relative;
     float: right;
   }
+  .cardEsp{
+    padding: 100px;
+  }
+  .cardEsp h1{
+    font-size: 5vw;
+    text-align: center;
+  }
   .banner{
     width: 90%;
   }
