@@ -1,0 +1,440 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #182833;
+  font-family: Roboto;
+  padding-top: 75px;
+  margin: 0;
+}
+
+.cardLogo{
+  width: 100%;
+  height: 132px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #6fa2b3;
+}
+
+#pescaLogo{
+  width: 28%;
+  padding-right: 10px;
+  position: relative;
+  float: left;
+  margin-top: 0;
+  pointer-events: none;
+}
+
+.carrinho{
+  position: relative;
+  float: right;
+  height: 40px;
+  width: 150px;
+  margin: 5px 5px; 
+  padding: 3px;
+  transition: background-color, box-shadow 0.5s; 
+  cursor: pointer;
+}
+
+.carrinho img{
+  height: 30px;
+}
+
+.carrinho h6{
+  display: inline;
+  justify-content: center;
+}
+
+.carrinho a{
+  color: #182833;
+  text-decoration: none;
+}
+
+.carrinho:hover{
+  background-color: #458ca3;
+  box-shadow: 1px 1px 4px #182833;
+  text-decoration: underline;
+}
+
+.profile{
+  position: relative;
+  float: right;
+  height: 40px;
+  width: 40px;
+  margin-top: 5px;
+  cursor: pointer;
+  transition: background-color, box-shadow 0.5s;
+}
+
+.profile img{
+  height: 40px;
+}
+
+.profile:hover{
+  background-color: #458ca3;
+  box-shadow: 1px 1px 4px #182833;
+}
+
+.barraBusca{
+  position: absolute;
+  top: 95px;
+  right: 7px;
+  width: 450px;
+  height: 35px;
+}
+.barraBusca input{
+  width: 450px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  transition: box-shadow 0.5s;
+}
+.barraBusca input:hover{
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.12);
+  opacity: box-shadow 50%;  
+}
+
+.lupa{
+  position: absolute;
+  top: 82px;
+  right: 0;
+}
+.lupa img{
+  width: 60px;
+  height: 60px;
+  opacity: 70%;
+}
+
+.menu{
+  background-color: #d3e2ed;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 1px 3px rgba(0,0,0,0.12), -0px -1px 3px rgba(0,0,0,0.12);
+  margin-top: 57px;
+}
+
+.menu a{
+  padding:20px 50px 20px 50px;
+  color: #182833;
+  text-decoration: none;
+  font-size: 80%;
+  font-weight: bold;
+}
+
+.menu a:hover{
+  background-color: #458ca3;
+  color: #d9f9ff;
+  transition: background-color 0.3s;
+}
+
+.cardEsp{
+  background-image: url(/images/pesca.jpg);
+  position: relative;
+  margin: 20px;
+  background-size: 100%;
+  height: 300px;
+  border-radius: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px;
+  pointer-events: none;
+}
+
+.cardEsp h1{
+  color: white;
+  font-family: Cambria;
+  font-size: 3vw;
+  text-shadow: 0px 0px 5px black;
+}
+
+#esp1{
+ margin-top: 5px;
+}
+
+.bannerProdutos{
+  color: #182833;
+  position: relative;
+  margin: 20px;
+  background-color: #d3e2ed;
+  border-radius: 5px;
+
+  font-weight: bold;
+  text-align: center;
+}
+#expand{
+  height: 80%;
+}
+#hidden{
+  overflow: hidden;
+  height: 400px;
+}
+
+.tipoProduto{
+  background-color: #458ca3;
+  border-radius: 5px 5px 0 0;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  color: #d3e2ed;
+  text-shadow: 0.5px 0.5px 5px #458ca3
+}
+.tipoProduto h3{
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-gap: 15px;
+  align-items: center;
+  justify-items: center;
+}
+
+.produtos{
+  margin: 20px;
+  height: 325px;
+  width: 250px;
+  padding: 10px;
+  background-color: #d3e2ed;
+  cursor: pointer;
+  transition: box-shadow 0.4s;
+}
+
+.produtos img{
+  width: 100%;
+}
+
+.produtos:hover{
+  box-shadow: 1px 1px 5px #182833;
+  text-decoration: underline;
+  color: #458ca3;
+  border-style: solid;
+  border-color: #458ca3;
+}
+
+.maps{
+  position: relative;
+  float: right;
+  text-align: center;
+  width: 20%;
+  height: 420px;
+  margin: 0px 20px 0 10px;
+  background-color: #458ca3; 
+  border-radius: 5px;
+  color: #d9f9ff;
+}
+
+.banner{
+  position: relative;
+  float: left;
+  width: 70%;
+  height: 200px;
+  margin: 0 20px 20px 20px;
+  border-radius: 5px;
+  transition: box-shadow, filter 0.3s;
+}
+
+#barcos{
+  background-image: url(/images/barcos.jpg);
+  font-family: Lucida Handwriting;
+  color:  white;
+  text-shadow: 5px 0px 5px black;
+  text-align: center;
+  font-size: 1vw;
+  background-position: center;
+  padding-top: 90px;
+  cursor: pointer;
+  
+}
+
+#camp{
+  background: url(/images/Logo.png) #6fa2b3;
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #182833;
+  text-align: center;
+  padding-top: 20px;
+  text-shadow: 2px 0px 2px #abd4d6;
+  font-size: 1.4vw;
+}
+
+#camp h2, h4{
+  pointer-events: none;
+}
+
+#camp h3:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.banner:hover{
+  filter: brightness(1.2);
+  box-shadow: 2px 2px 5px #458ca3;
+}
+
+.sociais{
+  width: 100%;
+  position: relative;
+  display: flex;
+  bottom: 0;
+  height: 50px;
+  background-color: #6fa2b3;
+  padding: 5px;
+  color: #182833;
+  text-align: center;
+}
+
+.sociais img{
+  width: 40px;
+}
+.sociais a{
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 50px;
+  border-radius:5px;
+  transition: box-shadow 0.3s;
+}
+
+.sociais a:hover{
+  box-shadow: 1px 1px 5px white;
+}
+
+.cardMsg{
+  position: fixed;
+  height: 35px;
+  width: 200px;
+  border-radius: 7px 7px 0 0;
+  background-color:  #3aaab0;
+  bottom: 0;
+  right: 5px;
+  text-align: center;
+  background-image: url(/images/mensagem.png);
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  padding: 0 5px 5px 5px;
+  cursor: pointer;
+}
+
+.cardMsg a{
+  text-decoration: none;
+  color: #abd4d6;
+}
+
+.cardMsg h4{
+  margin: 10px;
+}
+
+.cardMsg:hover{
+  text-decoration: underline;
+
+}
+
+.interfaceMsg{
+  background-color: #d3e2ed;
+  position: fixed;
+  right: 5px;
+  bottom: 33px;
+  height: 120px;
+  width: 200px;
+  text-align: center;
+  border: 1px #182833 solid;
+  border-radius: 10px 10px 0 0;
+  opacity: 0;
+  color: #458ca3;
+  transition: opacity 0.3s;
+}
+
+.cardMsg:hover + .interfaceMsg{
+  opacity: 1;
+}
+
+@media screen and (max-width: 1021px){
+  #pescaLogo{
+    width: 38%;
+  }
+
+  .menu{
+    display: flex;
+    justify-content: center;
+  }
+  .menu a{
+    font-size: 1.4vw;
+    padding: 5px 10px 10px 10px;
+  }
+  #barcos{
+    font-size: 1.7vw;
+  }
+  #camp{
+    font-size: 1.4vw;
+  }
+}
+@media screen and (max-width: 699px){
+
+  .banner{
+    width: 93%;
+    margin: 10px 20px 10px 20px;
+  }
+  .maps{
+    font-size: 3vw;
+    width: 93%;
+    margin-bottom: 10px;
+  }
+
+  .cardMsg{
+    width: 15%;
+    height: 50px;
+    font-size: 0;
+    background-size: 60%;
+    background-position: center;
+    padding: 5px;
+  }
+  .interfaceMsg{
+    display: none;
+  }
+  .sociais{
+    font-size: 0;
+  }
+  #barcos{
+    font-size: 2vw;
+  }
+  #camp{
+    font-size: 2vw;
+  }
+
+}
+@media screen and (max-width: 485px){
+  .barraBusca{
+    width: 92%;
+    margin-left: 10px;
+  }
+  .barraBusca input{
+    width: 92%;
+  }
+  .lupa{
+    margin-right: 20px;
+  }
+  .profile{
+    position: relative;
+    float: right;
+  }
+  .banner{
+    width: 90%;
+  }
+  .maps{
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1400px){
+  #pescaLogo{
+    width: 390px;
+  }
+  #camp{
+    font-size: 1vw;
+  }
+}
