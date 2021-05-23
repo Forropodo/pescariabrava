@@ -130,7 +130,7 @@ body{
 }
 
 .cardEsp{
-  background-image: url(images/pesca.jpg);
+  background-image: url(https://forropodo.github.io/pescariabrava/images/pesca.jpg);
   position: relative;
   margin: 20px;
   background-size: 100%;
@@ -238,7 +238,7 @@ body{
 }
 
 #barcos{
-  background-image: url(images/barcos.jpg);
+  background-image: url(https://forropodo.github.io/pescariabrava/images/barcos.jpg);
   font-family: Lucida Handwriting;
   color:  white;
   text-shadow: 5px 0px 5px black;
@@ -251,7 +251,7 @@ body{
 }
 
 #camp{
-  background: url(/images/Logo.png) #6fa2b3;
+  background: url(https://forropodo.github.io/pescariabrava/images/Logo.png) #6fa2b3;
   background-size: 20%;
   background-repeat: no-repeat;
   background-position: right;
@@ -312,7 +312,7 @@ body{
   bottom: 0;
   right: 5px;
   text-align: center;
-  background-image: url(images/mensagem.png);
+  background-image: url(https://forropodo.github.io/pescariabrava/images/mensagem.png);
   background-size: 20%;
   background-repeat: no-repeat;
   background-origin: content-box;
